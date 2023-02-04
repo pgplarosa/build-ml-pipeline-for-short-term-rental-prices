@@ -38,7 +38,7 @@ and click on `Fork` in the upper right corner. This will create a fork in your G
 repository that is under your control. Now clone the repository locally so you can start working on it:
 
 ```
-git clone https://github.com/[your github username]/build-ml-pipeline-for-short-term-rental-prices.git
+git clone https://github.com/pgplarosa/build-ml-pipeline-for-short-term-rental-prices.git
 ```
 
 and go into the repository:
@@ -539,7 +539,7 @@ train the model on a new sample of data that our company received (``sample2.csv
 
 (be ready for a surprise, keep reading even if the command fails)
 ```bash
-> mlflow run https://github.com/[your github username]/build-ml-pipeline-for-short-term-rental-prices.git \
+> mlflow run https://github.com/pgplarosa/build-ml-pipeline-for-short-term-rental-prices.git \
              -v [the version you want to use, like 1.0.0] \
              -P hydra_options="etl.sample='sample2.csv'"
 ```
